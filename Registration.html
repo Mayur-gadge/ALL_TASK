@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="registration.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form>
+      <table>
+        <tr class="first">
+          <td class="second">
+            <label><b>First Name</b></label> <br />
+            <input type="text" id="first" placeholder="First Name" />
+          </td>
+          <td class="second">
+            <label><b>Last Name</b></label
+            ><br />
+            <input type="text" id="last" placeholder="Last Name" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label><b>E-mail</b></label
+            ><br />
+            <input type="email" id="E-mail" placeholder="@email.com" />
+          </td>
+          <td>
+            <label><b>Mobile Number</b></label
+            ><br />
+            <input type="number" id="mobile" placeholder="+91" />
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td>
+            <label><b>City</b></label
+            ><br />
+            <select name="city" id="city">
+              <option value="Nagpur">Select</option>
+              <option value="Nagpur">Nagpur</option>
+              <option value="Pune">Pune</option>
+              <option value="Mumbai">Mumbai</option>
+              <option value="Kolhapur">Kolhapur</option>
+              <option value="Latur">Latur</option>
+              <option value="Satara">Satara</option>
+              <option value="Amravati">Amravati</option>
+              <option value="Nanded">Nanded/option></option>
+            </select>
+          </td>
+          <td>
+            <label><b>Address</b></label
+            ><br />
+            <textarea id="address"> </textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <lable><b>Hobbies :</b></lable
+            ><br />
+            <select name="hobbies" id="hobbies" multiple>
+              <option value="sport">Sport</option>
+              <option value="dance">Dance</option>
+              <option value="cooking">Cooking</option>
+              <option value="hiking">Hiking</option>
+              <option value="writing">Writing</option>
+            </select>
+          </td>
+          <td>
+            <label><b>Date Of Birth</b></label>
+            <input type="date" id="DOB" placeholder="__/__/__" />
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td>
+            <label><b> Select Gender</b></label
+            ><br />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="radio" id="male" value="male" name="gender" />
+             <label for="male">Male</label>  <input
+              type="radio"
+              id="female"
+              value="female"
+              name="gender"
+            />
+             <label for="female">Female</label><br />
+             <input type="radio" id="other" value="other" name="gender" />  
+            <label for="other">Other</label>
+          </td>
+        </tr>
+        <br />
+        <tr>
+          <td>
+            <label><b>Technologies</b></label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="checkbox" id="tech1" />
+            <label for="tech1">Fornt-End</label>
+            <input type="checkbox" id="tech2" />
+            <label for="tech2">Back-End </label><br />
+            <input type="checkbox" id="tech3" />
+            <label for="tech3">Database</label>
+          </td>
+        </tr>
+        <tr id="button">
+          <td>
+            <button>RESET</button>
+          </td>
+          <td>
+            <button type="submit">SUBMIT</button>
+          </td>
+          <td>
+            <button>CANCEL</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
